@@ -114,6 +114,6 @@ task copyViteBuildFiles(type: Copy) {
 }
 
 processResources {
-    dependsOn copyViteBuildFiles
+    dependsOn copyViteBuildFiles 
 }
 */
